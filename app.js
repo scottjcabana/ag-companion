@@ -221,7 +221,7 @@
     if ('Notification' in window && Notification.permission === 'granted') {
       new Notification('Antigravity: Task Complete', {
         body: `Agent has finished: ${title}`,
-        icon: '/icon.svg'
+        icon: './icon.svg'
       });
     }
   }
